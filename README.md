@@ -1,2 +1,3 @@
 ## Description of API
-<p>Python values of two dict values<p>
+<p>API of Python values of two dict values<p>
+<p> This API has data in a list of Python dictionaries<p>

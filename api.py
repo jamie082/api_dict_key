@@ -10,7 +10,7 @@ app.config["DEBUG"] = True
 
 books = [
     {'id': 0,
-      'name': 'Jamie Taylor Morrissey',
+      'name': 'Jamie Morrissey',
       'phone_number': '1-333-444-5555',
       'year_born': '1982'},
     {'id': 1,
@@ -21,8 +21,7 @@ books = [
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>Distant Reading Archive</h1><p>This site is a prototype API for distant reading of science fiction novels.</p>"
-
+    return "<h1>This is a formulated Python backend API written with dictionary key values</h1><li>Hello</li><li>I hope this project gets me a job</li><li>The second part of this project shows how to use the cURL linux utility</li>"
 
 # A route to return all of the available entries in our catalog.
 @app.route('/api/v1/resources/books/all', methods=['GET'])
